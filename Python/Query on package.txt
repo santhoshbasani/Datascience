@@ -1,5 +1,5 @@
-from fact_fahr_cal import fact_fahr_cal_pkg  
-#import fact_fahr_cal.fact_fahr_cal_pkg as fa
+#from fact_fahr_cal import fact_fahr_cal_pkg  
+import fact_fahr_cal.fact_fahr_cal_pkg as fa
 
 
 # factorial of a given number
