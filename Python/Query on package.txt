@@ -1,0 +1,31 @@
+from fact_fahr_cal import fact_fahr_cal_pkg  
+#import fact_fahr_cal.fact_fahr_cal_pkg as fa
+
+
+# factorial of a given number
+
+a = int(input('Enter the value for factorial : '))
+print(fa.fact_func1.__doc__)
+print('factorial of a number', a, 'is :', fa.fact_func1(a))
+
+a = int(input('Enter degree value to convert into fahrenheit : '))
+print(fa.fahr_func1.__doc__)
+print('conversion of a number', a, 'is :', fa.fahr_func1(a))
+
+
+***********************************************************************
+******       code in package fact_fahr_cal.fact_fahr_cal_pkg   ******
+***********************************************************************
+def fact_func1(a):
+    '''this function is to calculate the factorial of a number'''
+    b = 1
+    for i in range(1,a+1):
+        b = b*i
+    return b;
+
+def fahr_func1(a):
+    '''this function is to convert from celcius to fahrenheit for the given number'''
+    f = (a * 1.8) + 32 
+    return f;
+
+NAME = 'SANTH'
